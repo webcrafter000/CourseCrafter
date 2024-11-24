@@ -33,14 +33,14 @@ function FinishScreen({ params }) {
   const courseURL = `${process.env.NEXT_PUBLIC_HOST_NAME}/course/${course?.courseId}`;
 
   // // Function for copying URL
-  // const handleCopy = async () => {
-  //   try {
-  //     await navigator.clipboard.writeText(courseURL);
-  //     alert("Course URL copied to clipboard!"); // Optional alert, or replace with Toastify
-  //   } catch (err) {
-  //     console.error("Failed to copy: ", err);
-  //   }
-  // };
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(courseURL);
+      alert("Course URL copied to clipboard!"); // Optional alert, or replace with Toastify
+    } catch (err) {
+      console.error("Failed to copy: ", err);
+    }
+  };
 
   const handleShare = async () => {
     if (navigator.share) {
