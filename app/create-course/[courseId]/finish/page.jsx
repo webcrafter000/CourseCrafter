@@ -75,7 +75,7 @@ function FinishScreen({ params }) {
       </h2>
       <CourseBasicInfo course={course} refreshData={() => console.log()} />
       <h2 className="mt-3">Course URL:</h2>
-      <div className="text-center text-gray-400 border p-2 rounded flex gap-2 items-center justify-between">
+      <div className="text-center text-gray-400 border p-2 rounded flex gap-1 items-center justify-between">
         <span className="truncate">{courseURL}</span>
         <HiOutlineClipboardDocumentCheck
           className="h-5 w-5 cursor-pointer"
