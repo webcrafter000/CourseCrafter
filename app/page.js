@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
               <div className="text-2xl font-bold mb-4">3. Export and Share</div>
-              <p>Export your course and distribute it to your students or on educational platforms.</p>
+              <p>Copy your course url and share with  students or on educational platforms.</p>
             </div>
           </div>
         </section>
