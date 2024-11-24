@@ -33,7 +33,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
               <div className="text-2xl font-bold mb-4">1. Specify Your Topic</div>
-              <p>Enter your course topic and intended audience to begin.</p>
+              <p>Enter your course topic,description and intended audience to begin </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
               <div className="text-2xl font-bold mb-4">2. Customize Own Content</div>
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
               <div className="text-2xl font-bold mb-4">3. Export and Share</div>
-              <p>Copy your course url and share with  students or on educational platforms.</p>
+              <p>Get your course url and share with  students or on educational platforms.</p>
             </div>
           </div>
         </section>

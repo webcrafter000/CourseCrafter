@@ -6,7 +6,7 @@ import { and, eq } from "drizzle-orm";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import CourseBasicInfo from "../_components/CourseBasicInfo";
-import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
+// import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 import { FiShare2 } from "react-icons/fi";
 
 function FinishScreen({ params }) {
@@ -33,14 +33,14 @@ function FinishScreen({ params }) {
 
   const courseURL = `${process.env.NEXT_PUBLIC_HOST_NAME}/course/${course?.courseId}`;
 
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(courseURL);
-      alert("Course URL copied to clipboard!");
-    } catch (err) {
-      console.error("Failed to copy: ", err);
-    }
-  };
+  // const handleCopy = async () => {
+  //   try {
+  //     await navigator.clipboard.writeText(courseURL);
+  //     alert("Course URL copied to clipboard!");
+  //   } catch (err) {
+  //     console.error("Failed to copy: ", err);
+  //   }
+  // };
 
   const handleShare = async () => {
     if (navigator.share) {
