@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import CourseBasicInfo from "../_components/CourseBasicInfo";
 import { FiShare2 } from "react-icons/fi";
-import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
+// import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
