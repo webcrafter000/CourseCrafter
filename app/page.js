@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <main className="container mx-auto px-4 py-8">
         <section className="text-center mb-16">
-          <a href="process.env.MOCK_URL" className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300" role="alert">
+          <a href="https://interviewify.vercel.app/" className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300" role="alert">
             <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span>
             <span className="text-sm font-medium">AI-POWERED-INTERVIEW</span>
             <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

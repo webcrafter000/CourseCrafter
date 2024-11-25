@@ -25,7 +25,7 @@ function Header() {
         </li>
   
         <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/upgrade' ? 'text-primary font-bold' : ''}`}>
-          <Link href="process.env.MOCK_URL">AI Mock Interview</Link>
+          <Link href="https://interviewify.vercel.app/">AI Mock Interview</Link>
         </li>
       </ul>
 
