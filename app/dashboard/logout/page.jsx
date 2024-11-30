@@ -8,7 +8,7 @@ const LogoutPage = () => {
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        height: '90vh',
+        height: '60vh',
         backgroundImage: 'url("/logout.jpeg")', // Assuming logout.jpg is in the public folder
         backgroundSize: 'cover',
         backgroundPosition: 'center',
