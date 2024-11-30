@@ -1,6 +1,5 @@
 "use client";
 import { db } from "@/configs/db";
-import Header from '@/app/_components/Header'
 import { Chapters, CourseList } from "@/configs/schema";
 import { and, eq } from "drizzle-orm";
 import React, { useEffect, useState } from "react";
@@ -32,7 +31,6 @@ function CourseStart({ params }) {
   }
   return (
     <div>
-            <Header/>
 
       {/* Chapter list sidebar */}
       <div className={`fixed md:w-64 ${showBar ? 'w-full bg-white text-black':'hidden'} md:block h-full border-r shadow-sm overflow-y-scroll scroll-smooth`}>
