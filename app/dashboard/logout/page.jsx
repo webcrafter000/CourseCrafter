@@ -13,7 +13,7 @@ const LogoutPage = () => {
         backgroundSize: 'contain', // Adjust image to fit within bounds
         backgroundRepeat: 'no-repeat', // Avoid image tiling
         backgroundPosition: 'center top', // Position the image
-        paddingTop: '50%', // Adjusts vertical spacing for image height
+        paddingTop: '30%', // Adjusts vertical spacing for image height
       }}
     >
       <SignOutButton>
