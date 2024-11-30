@@ -9,7 +9,7 @@ const LogoutPage = () => {
         justifyContent: 'flex-end',
         alignItems: 'center',
         height: '100vh', // Keeps the overall height of the container
-        backgroundImage: 'url("/logout.jpg")', // Background image
+        backgroundImage: 'url("/logout.jpeg")', // Background image
         backgroundSize: 'contain', // Adjust image to fit within bounds
         backgroundRepeat: 'no-repeat', // Avoid image tiling
         backgroundPosition: 'center top', // Position the image
