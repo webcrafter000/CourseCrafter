@@ -26,7 +26,7 @@ const LogoutPage = () => {
             border: 'none',
             borderRadius: '5px',
             cursor: 'pointer',
-            marginBottom: '20px', // Spacing from the bottom
+            marginBottom: '50px', // Spacing from the bottom
           }}
         >
           Log out
