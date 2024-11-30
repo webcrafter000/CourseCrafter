@@ -1,4 +1,4 @@
-import {SignOutButton} from '@clerk/nextjs';
+import { SignOutButton } from '@clerk/nextjs';
 
 const LogoutPage = () => {
   return (
@@ -8,10 +8,12 @@ const LogoutPage = () => {
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        height: '80vh',
-        backgroundImage: 'url("/logout.jpeg")', // Assuming logout.jpg is in the public folder
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        height: '100vh', // Keeps the overall height of the container
+        backgroundImage: 'url("/logout.jpg")', // Background image
+        backgroundSize: 'contain', // Adjust image to fit within bounds
+        backgroundRepeat: 'no-repeat', // Avoid image tiling
+        backgroundPosition: 'center top', // Position the image
+        paddingTop: '50%', // Adjusts vertical spacing for image height
       }}
     >
       <SignOutButton>
@@ -24,7 +26,7 @@ const LogoutPage = () => {
             border: 'none',
             borderRadius: '5px',
             cursor: 'pointer',
-            marginBottom: '20px', // Add spacing from the bottom
+            marginBottom: '20px', // Spacing from the bottom
           }}
         >
           Log out
